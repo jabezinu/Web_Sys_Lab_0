@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
+import HomePage from './pages/HomePage';
+import './App.css';
 
 const App = () => {
   return (
-    <div className='hover:text-red-500'>
-      Hello Jabez!
-    </div>
-  )
-}
+    <HomePage />
+  );
+};
 
-export default App
+export default App;
